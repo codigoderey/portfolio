@@ -39,7 +39,7 @@ const SectionIntro = () => {
                 Full Stack Mobile &amp; Web Development Solutions, Based in{' '}
                 <span className="gradient-text gradient-horizon">USA</span>
               </h3>
-              <p className="mb-5 lead text-black-50 font-weight-extralight">
+              <p className="mb-0 lead text-black-50 font-weight-extralight">
                 Nice to meet you! I do full stack development for the web and
                 mobile devices using the latest technologies in the JavaScript
                 environment.{' '}
@@ -48,11 +48,11 @@ const SectionIntro = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-center position-relative">
+      <div className="d-flex justify-content-center position-relative pb-5">
         <div
-          className="parallax min-vh-75 skrollable skrollable-between"
+          className="parallax min-vh-25 skrollable skrollable-between"
           style={{
-            backgroundImage: "url('/me.png')",
+            // backgroundImage: "url('/me.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center center',
             width: '73.4673vw',
@@ -70,7 +70,8 @@ const SectionIntro = () => {
                 <i className="icon-line-arrow-right"></i>
               </a>
               <a
-                href=""
+                href="https://github.com/codigoderey"
+                target="_blank"
                 className="button text-dark button-hero bg-light text-right"
               >
                 <span>Github Profile</span>

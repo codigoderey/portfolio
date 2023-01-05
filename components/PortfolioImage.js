@@ -10,13 +10,13 @@ const PortfolioImage = ({
 }) => {
   return (
     <div className="col-lg-6 h-translatey-3 tf-ts">
-      <a href={extLink} className="portfolio-item" target="_blank">
-        <div className="portfolio-image">
+      <a href={extLink} className="portfolio-item m-1" target="_blank">
+        <div className="portfolio-image shadow">
           <img src={imgUrl} alt={altDesc} />
           <div className="bg-overlay">
             <div className="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4">
-              <h3 className="mb-0 mt-1">{title}</h3>
-              <h5>{about}</h5>
+              <h3 className="mb-0 mt-0 p-1 bg-white text-black">{title}</h3>
+              <h5 className='p-1 bg-white text-black'>{about}</h5>
             </div>
             <div className="bg-overlay-content align-items-start justify-content-end p-4">
               <div
@@ -31,7 +31,7 @@ const PortfolioImage = ({
             </div>
           </div>
         </div>
-        <p>{madeWith}</p>
+        <p className='mt-2'>{madeWith}</p>
       </a>
     </div>
   );

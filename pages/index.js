@@ -4,7 +4,7 @@ import IndexHeader from '../components/IndexHeader';
 import SectionIntro from '../components/SectionIntro';
 import Testimonies from '../components/Testimonies';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -33,3 +33,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home
